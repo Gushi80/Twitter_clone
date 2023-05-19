@@ -1,28 +1,31 @@
 html,
 body {
    height: fit-content;
+   
 }
 .content {
     max-width: 600px;
     height: 100%;
     margin: 0 auto;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
 }
 .post_form {
     padding: 20px 40px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #000;
+    display: flex;
+    gap: 25px
 }
 .post_form input {
     width: 70%;
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
 }
 .post_form textarea {
     width: 70%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
 }
 .posts ul {
     padding: 0;
@@ -30,7 +33,7 @@ body {
 .posts li {
     position: relative;
     display: flex;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #000;
     padding: 20px 40px;
     list-style: none;
 }
@@ -65,7 +68,7 @@ body {
     position: absolute;
     top: 40px;
     right: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
     background-color: white;
     padding: 10px 15px;
     font-size: 13px;
@@ -81,7 +84,7 @@ img.twitterlog {
     display: flex;
     padding-left: 6%;
     gap: 3%;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #000;
     padding-bottom: 2%;
 }
 input[type="submit"] {

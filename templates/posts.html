@@ -7,6 +7,9 @@
     </div>
     
     <section class="post_form">
+        <div class="side-logo">
+            <img src="{% static 'img/man.png' %}"  width="50px">
+                </div>
         <form action="" method="POST"  enctype="multipart/form-data">
             {% csrf_token %}
             <input style="background-color: #e6fef7;" type="text" name="name" placeholder="Your Name" required />
@@ -21,8 +24,8 @@
             <li>
                 <img class="menu_icon js-menu-icon" src="{% static 'img/option.png' %}" />
                 <div class="menu">
-                    <a href="/delete/{{ post.id }} ">Delete</a> <br>
-                    <a href="/edit/{{ post.id }} ">Edit</a>
+                    <a href="/edit/{{ post.id }} ">Edit</a> <br>
+                    <a href="/delete/{{ post.id }} ">Delete</a> 
                 </div>
                 <div class="logo">
                     <img src="{% static 'img/man.png' %} " />
